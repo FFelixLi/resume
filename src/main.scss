@@ -209,10 +209,12 @@ a {
   }
   .content-left,
   .content-right {
-    width: 50%;
+    width: 100%;
+    /*
     @media screen and (max-width: 1024px) {
       width: 100%;
     }
+    */
   }
   .content-left {
     float: left;
@@ -283,13 +285,15 @@ a {
     font-weight: 500;
     min-height: 30px;
     .item-time {
-      display: inline-block;
+      /* display: inline-block; */
       float: left;
       width: 25%;
+      /*
       @media screen and (max-width: 720px) {
         width: 100%;
         margin-bottom: 5px;
       }
+      */
     }
     .item-more {
       position: absolute;
@@ -297,6 +301,7 @@ a {
       right: 0;
     }
     .item-name {
+      width: 75%;
       float: left;
     }
   }
